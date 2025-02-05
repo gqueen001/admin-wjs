@@ -1,0 +1,49 @@
+.table {
+  width: 80%;
+  margin: auto;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 25% 60% 15%;
+  justify-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+  height: 50px;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.rows > * {
+  width: 100%;
+  text-align: start;
+}
+
+.edit-btn,
+.delete-btn {
+  all: unset;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.delete-btn:hover {
+  border-bottom: 2px solid rgb(253, 25, 25);
+}
+
+.edit-btn:hover {
+  border-bottom: 2px solid rgb(229, 159, 84);
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+  cursor: pointer;
+}
+
+.rows:hover {
+  background-color: #032631;
+  color: #ffffff;
+}
