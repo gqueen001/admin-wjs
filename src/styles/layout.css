@@ -18,6 +18,7 @@
 .rows > * {
   width: 100%;
   text-align: start;
+  font-size: 16px;
 }
 
 .edit-btn,

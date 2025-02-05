@@ -27,6 +27,8 @@
 
 .delete-modal > h1 {
   text-align: center;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .delete-container {

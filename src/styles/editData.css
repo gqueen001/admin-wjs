@@ -1,5 +1,7 @@
 img {
   height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
 
 .edit-data-modal {
@@ -30,6 +32,17 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.title,
+.date,
+.time,
+.description {
+  font-family: "Noto Sans", serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #481e14;
 }
 
 .title,
@@ -71,6 +84,7 @@ img {
   text-align: center;
   color: #ffffff;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .edit {

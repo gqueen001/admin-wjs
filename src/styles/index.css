@@ -5,4 +5,7 @@
 
 body {
   background-color: #eeeeee;
+  font-family: "Noto Sans", serif;
+  letter-spacing: 1px;
+  color: #481e14;
 }
