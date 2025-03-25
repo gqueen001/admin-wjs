@@ -1,4 +1,4 @@
-# Тестовое задание для Junior React Developer
+# Задание для React Developer
 
 ## 💪 This project built using:
 
